@@ -8,7 +8,7 @@ The git commit --amend command is a convenient way to modify the most recent com
 It lets you combine staged changes with the previous commit instead of creating an entirely new commit.
 It can also be used to simply edit the previous commit message without changing its snapshot.
 
-kisaca eski commitleri düzenlemek ve commit mesajini degistirmek icinde kullanilir.
+kisaca son commiti düzenlemek ve commit mesajini degistirmek icinde kullanilir.
 ## VIM EDITOR 
 
 0. Write your message
@@ -38,6 +38,52 @@ git commit --amend -m "message"
 
 ### I'm going to amend into the previous commit along with this new text.
 
+### Note
+
+Amending a Commit Without Changing Its Message
+If you don’t want to change your commit message, you can run the amend command with the no-edit flag, like this:
+
+git commit --amend --no-edit
+
+# Remember: NEVER amend (rewrite) the commit history of public branches(like master).This will truly mess your teammates work.
+
+
+* Watch out for options like --hard and --force though — they can discard data.
+* Also, don't rewrite history on any branches you're collaborating on.
 
 
 
+
+# GIT REFLOG
+
+``git reflog ``
+
+komutu ile unreachable commitleri de görebiliriz.
+
+When i want to reach an unreachable commit 
+
+````
+git checkout <commit hash>
+git checkout -b Resetting-to-<commithash>-for-rework
+
+````
+When i want to delete again 
+````
+
+git branch -d (veya) D Resetting-to-<commithash>-for-rework
+ -D hart delete
+````
+# Differencies between git pull and git pull origin master
+
+You could specify what branch you want to pull:
+
+ ``git pull origin master``
+``git pull origin branchName``
+Or you could set it up so that your local master 
+branch tracks github master branch as an upstream:
+
+``  git push --set-upstream origin branchName``
+After that can i use 
+``git pull``
+This branch tracking is set up for you automatically when you 
+clone a repository (for the default branch only), but if you add a remote to an existing repository you have to set up the tracking yourself.
