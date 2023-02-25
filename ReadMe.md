@@ -32,7 +32,11 @@ u - to undo the last the command and U to undo the whole line
 
 ````
 
+## Short way to arrange commit message
 
+git commit --amend -m "message"
+
+### I'm going to amend into the previous commit along with this new text.
 
 
 
