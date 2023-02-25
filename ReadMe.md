@@ -16,7 +16,20 @@ kisaca eski commitleri düzenlemek ve commit mesajini degistirmek icinde kullani
 2. : type
 3. wq save and quit
 ````
-bu islemleri yaparken problemler cikabilir cözüm bulmaya calisiyorum
+problem cikarsa vim editor ac:
+vim editorde iki mod var 
+1. command mode 
+2. edit/insert mode (click i )
+
+1. Insert mode (Where you can just type like normal text editor. Press i for insert mode)
+2. Command mode (Where you give commands to the editor to get things done . Press ESC for command mode)
+Most of them below are in command mode
+
+x - to delete the unwanted character
+u - to undo the last the command and U to undo the whole line
+:wq or :x! - to save and exit
+:q! - to trash all changes
+
 ````
 
 
