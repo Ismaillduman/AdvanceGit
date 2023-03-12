@@ -110,3 +110,4 @@ Whereas, the ``git push origin <branch>`` command pushes the local changes to th
 This blog differentiated between ``git push origin <branch>`` and ``git push`` commands.
 
 ![8341g68g1v7y](https://user-images.githubusercontent.com/96315214/224517960-6e12f36a-42bf-4be2-a455-5e15dbf6e65c.png)
+![XwVzT](https://user-images.githubusercontent.com/96315214/224517983-c8cf3061-d05f-47d6-9efe-01bbd5df043d.png)
