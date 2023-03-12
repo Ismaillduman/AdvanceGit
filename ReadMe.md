@@ -87,7 +87,7 @@ After that can i use
 ``git pull``
 This branch tracking is set up for you automatically when you 
 clone a repository (for the default branch only), but if you add a remote to an existing repository you have to set up the tracking yourself.
-
+q
 
 # Differencies between git push and git push origin master or branch
 
