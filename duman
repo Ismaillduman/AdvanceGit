@@ -1,1 +1,5 @@
 duman ismail
+
+acaba branch ta yaptigim degisikligi sadece remote branch 'a push etsem.
+
+sonra bu degisikligi remote branchtan local deki baska bir brancha mastera merge etmeden alabilir miyim?
