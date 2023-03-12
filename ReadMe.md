@@ -109,4 +109,4 @@ In the Git terminal, the ``git push`` command uploads all the local branch chang
 Whereas, the ``git push origin <branch>`` command pushes the local changes to the particular remote branch.
 This blog differentiated between ``git push origin <branch>`` and ``git push`` commands.
 
-![Screenshot](8341g68g1v7y.png)
+![8341g68g1v7y.png](..%2F..%2FPictures%2FScreenshots%2F8341g68g1v7y.png)
