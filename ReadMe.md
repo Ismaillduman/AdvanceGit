@@ -87,3 +87,26 @@ After that can i use
 ``git pull``
 This branch tracking is set up for you automatically when you 
 clone a repository (for the default branch only), but if you add a remote to an existing repository you have to set up the tracking yourself.
+
+
+# Differencies between git push and git push origin master or branch
+
+``git push``
+It pushes changes of all branches to the GitHub repository.
+It pushes work implicitly to the GitHub repository.
+It can be only utilized with a single repository.
+
+``git push origin <branch>``
+
+It pushes changes to specific remote branches.
+It pushes work explicitly to the GitHub repository.
+It can be utilized with both single and multiple repositories.
+
+
+
+### Conclusion
+In the Git terminal, the ``git push`` command uploads all the local branch changes to the GitHub repository. 
+Whereas, the ``git push origin <branch>`` command pushes the local changes to the particular remote branch.
+This blog differentiated between ``git push origin <branch>`` and ``git push`` commands.
+
+![Screenshot](8341g68g1v7y.png)
