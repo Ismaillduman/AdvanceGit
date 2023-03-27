@@ -12,5 +12,8 @@ stash deneyimi
 ** I make some changes to try amend commit
 ** I made some changes to proof amen is working
 *** check the commit amend
+
 ** amend force git push --force repository-name branch-name
+
+
 
