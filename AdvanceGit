@@ -16,4 +16,9 @@ stash deneyimi
 ** amend force git push --force repository-name branch-name
 
 ++ try again amend command
+<<<<<<< HEAD
+=======
+++ make some new data to try amend
+
+>>>>>>> 9262e2c9b26b671b287b7459961b95529b8ec5a0
 
