@@ -121,3 +121,43 @@ This blog differentiated between ``git push origin <branch>`` and ``git push`` c
 
 
 
+ # Stashing your work
+The ``git stash`` command takes your uncommitted changes (both staged and unstaged), 
+saves them away for later use, and then reverts them from your working copy.
+
+# Re-applying your stashed changes
+You can reapply previously stashed changes with ``git stash pop``:
+Popping your stash removes the changes from your stash and reapplies them to your working copy.
+
+Alternatively, you can reapply the changes to your working copy 
+and keep them in your stash with ``git stash apply``:
+This is useful if you want to apply the same stashed changes to multiple branches.
+
+# Managing multiple stashes
+You aren't limited to a single stash. You can run git stash several times to create multiple stashes, 
+and then use git stash list to view them. 
+By default, stashes are identified simply as a "WIP" – work in progress – on top of the branch and 
+commit that you created the stash from. After a while it can be difficult to remember what each stash contains:
+
+$ ``git stash list``
+``stash@{0}``: WIP on main: 5002d47 our new homepage
+``stash@{1}``: WIP on main: 5002d47 our new homepage
+``stash@{2}``: WIP on main: 5002d47 our new homepage
+
+### To provide a bit more context, it's good practice to annotate your stashes with a description,
+using git ``stash save "message"``:
+
+$ ``git stash save "add style to our site"``
+Saved working directory and index state On main: add style to our site
+HEAD is now at 5002d47 our new homepage
+
+``$ git stash list``
+``stash@{0}``: On main: add style to our site
+stash@{1}: WIP on main: 5002d47 our new homepage
+stash@{2}: WIP on main: 5002d47 our new homepage
+By default, git stash pop will re-apply the most recently created stash: stash@{0}
+
+### You can choose which stash to re-apply by passing its identifier as the last argument, for example:
+
+``$ git stash pop stash@{2}
+``
