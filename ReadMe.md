@@ -50,6 +50,13 @@ git commit --amend --no-edit
 
 * Watch out for options like --hard and --force though — they can discard data.
 * Also, don't rewrite history on any branches you're collaborating on.
+* Problems start occurring when the commit is already pushed to GitHub and 
+I want to amend a commit that I already pushed up.
+
+``push — force-with-lease`` or ``git push -f origin``
+One way to handle this is to use git push --force-with-lease to overwrite the last commit.
+Bu sekilde pushed edilmis bir commit tekrar düzenlenebilir 
+ama conflict olusma durumlari göz önünde bulundurulmali
 
 
 
@@ -111,3 +118,6 @@ This blog differentiated between ``git push origin <branch>`` and ``git push`` c
 
 ![8341g68g1v7y](https://user-images.githubusercontent.com/96315214/224517960-6e12f36a-42bf-4be2-a455-5e15dbf6e65c.png)
 ![XwVzT](https://user-images.githubusercontent.com/96315214/224517983-c8cf3061-d05f-47d6-9efe-01bbd5df043d.png)
+
+
+
