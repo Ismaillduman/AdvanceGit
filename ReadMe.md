@@ -161,3 +161,17 @@ By default, git stash pop will re-apply the most recently created stash: stash@{
 
 ``$ git stash pop stash@{2}
 ``
+
+## To create a remote repo on terminal
+
+Firstly i have to install hub scoop or chocolatey 
+i install scoop with this command (scoop install hub)
+
+after that on powershell run these code
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+> irm get.scoop.sh | iex
+
+After all of that run on your terminal (hub create)
+enter your github username and enter your access token instead of password
+and the nmagic.....
+
