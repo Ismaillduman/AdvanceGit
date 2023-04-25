@@ -178,3 +178,15 @@ After all of that run on your terminal (hub create)
 enter your github username and enter your access token instead of password
 and the magic.....
 
+# Generate new Token on github
+
+![Screenshot 2023-04-25 121114](https://user-images.githubusercontent.com/96315214/234247009-c086162f-3f42-472a-9067-20cf9a81c6d3.png)
+
+![Screenshot 2023-04-25 121128](https://user-images.githubusercontent.com/96315214/234247072-4d311e4f-9fa8-451e-9d35-d0546984d0d6.png)
+
+![Screenshot 2023-04-25 121134](https://user-images.githubusercontent.com/96315214/234247105-44a3f460-6564-4578-b173-cef8d434e554.png)
+
+
+![Screenshot 2023-04-25 121150](https://user-images.githubusercontent.com/96315214/234247168-3fdbec52-ecdf-4f95-80b0-d79fdba0b156.png)
+
+
