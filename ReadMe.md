@@ -58,8 +58,14 @@ One way to handle this is to use git push --force-with-lease to overwrite the la
 Bu sekilde pushed edilmis bir commit tekrar düzenlenebilir 
 ama conflict olusma durumlari göz önünde bulundurulmali
 
+# undo and revert
+"Commit undo" ve "commit revert", yazılım geliştirme sürecinde yapılan değişikliklerin geri alınması için kullanılan iki farklı terimdir.
 
+"Commit undo", son yapılan commit işlemini geri alır ve bu değişiklikleri siler. Bu işlem, son commit işlemi üzerindeki değişiklikleri tamamen geri alır ve projede kaydedilmiş en son versiyona geri döner.
 
+Öte yandan, "commit revert" değişiklikleri geri almak için bir yöntemdir, ancak burada değişikliklerin tamamı silinmez. Bunun yerine, geri alınan değişiklikler, yeni bir commit olarak kaydedilir ve projenin geçmişinde bir değişiklik kaydı olarak kalır. Bu yöntem, bir hata yapılırsa veya bir değişiklik hatalıysa geri alınması gerektiğinde kullanışlıdır.
+
+Özetle, "commit undo" son commit işlemi üzerindeki değişiklikleri tamamen silerken, "commit revert" ise geri alınan değişiklikleri yeni bir commit olarak kaydederek geçmişte bir kayıt olarak tutar.
 
 # GIT REFLOG
 
