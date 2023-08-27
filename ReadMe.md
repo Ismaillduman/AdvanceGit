@@ -170,7 +170,7 @@ By default, git stash pop will re-apply the most recently created stash: stash@{
 
 ## To create a remote repo on terminal
 
-Firstly i have to install hub-scoop or hub-chocolatey 
+Firstly i have to install hub-scoop or repo
 i install scoop with this command (scoop install hub)
 
 after that on powershell run these code
@@ -183,6 +183,28 @@ after that on powershell run these code
 After all of that run on your terminal (hub create)
 enter your github username and enter your access token instead of password
 and the magic.....
+
+## or we can use  gh repo create but firstly we have to provide gh auth login credentials
+
+![Screenshot 2023-08-27 155315](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/83e8a93d-2ef9-4fd5-bd72-68fe06d7fcbe)
+
+
+![Screenshot 2023-08-27 155344](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/f500825c-cc90-45a5-8d44-0ba7c3c83ff2)
+
+![Screenshot 2023-08-27 155401](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/aba2476d-6504-44d9-b91a-d13e57eef6c9)
+
+
+![Screenshot 2023-08-27 155417](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/9027da96-bd15-4041-9f13-b920fe455b19)
+
+
+![Screenshot 2023-08-27 155426](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/e5bdfea4-1c52-45d6-b3bb-e60a8f499fd8)
+
+
+![Screenshot 2023-08-27 155524](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/ee73a421-126e-4e3f-a63b-1b44c83c421f)
+
+
+![Screenshot 2023-08-27 155849](https://github.com/Ismaillduman/AdvanceGit/assets/96315214/e80a235f-c671-4a53-a3ca-a8d1b8fd0c70)
+
 
 # Generate new Token on github
 
